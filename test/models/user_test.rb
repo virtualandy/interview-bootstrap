@@ -7,6 +7,6 @@ class UserTest < ActiveSupport::TestCase
 
    test "throw" do
     puts "a message from a test"
-    throw Exception.new("this test has filed")
+    throw Exception.new("this test has failed")
    end
 end
